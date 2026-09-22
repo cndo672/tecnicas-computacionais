@@ -121,3 +121,30 @@ historiaFinal += afirmacoes + “ “;
 atual++;
 mostraPergunta();
 }
+export const perguntas = [
+{
+    export function aleatorio (lista){
+    const posicao = Math.floot(Math.random()* lista.length);
+    return lista[posicao];
+        import {aleatorio} from ‘./aleatorio.js’;
+import {perguntas} from ‘./perguntas.js;
+    <script type=”module” src=”js/aleatorio.js”></script>
+<script type=”module” src=”js/perguntas.js”></script>
+<script type=”module” src=”js/script.js”></script>
+        <div class= “caixa-resultado”>
+    <p class=”texto-resultado”></p>
+    <button class=”novamente-btn”></button>
+</div>
+        const botaoJogarNovamente = document.querySelector(“.novamente-btn”);
+        function jogaNovamente(){
+    atual = 0;
+    historiaFinal = "";
+    mostraPergunta();
+            function mostraResultado() {
+caixaPerguntas.textContent = "Em 2049...";
+textoResultado.textContent = historiaFinal;
+caixaAlternativas.textContent = "";
+botaoJogarNovamente.addEventListener("click", jogaNovamente());
+
+}
+            
