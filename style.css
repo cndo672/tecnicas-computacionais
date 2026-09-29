@@ -36,6 +36,10 @@ button {
     padding: 15px;
     transition: background-color 0.3s;
 }
+<div class= “caixa-resultado”>
+    <p class=”texto-resultado”></p>
+    <button class=”novamente-btn”>Jogar novamente</button>
+</div>
 
 button:hover{
     background-color: var(--cor-destaque);
